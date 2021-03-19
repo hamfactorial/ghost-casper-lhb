@@ -1,0 +1,29 @@
+@media (prefers-color-scheme: dark) {
+    .coral-comment-username, .coral-userPopover {
+        color: white !important;
+    }
+    
+    .Icon-root, .Icon-sm {
+        color: white !important;
+    }
+     
+    :root{
+        --round-corners: 0px;
+        --palette-background-body: #1A1C20;
+        --palette-background-popover: #263238;
+        --palette-background-input: #263238;
+        --palette-primary-100: #04202f;
+        --palette-primary-500: #26a6ed;
+        --palette-text-500: #ffffff;
+        --palette-text-900: #26a6ed;
+        --palette-grey-100: #263238;
+        --palette-grey-200: #EAEFF0;
+        --palette-grey-300: #e4eaed;
+        --palette-grey-400: #9FA4A6;
+        --palette-grey-500: #FFFFFF;  // used by comment styling buttons
+        --palette-grey-600: #49545C;
+        --palette-grey-700: #32404D;
+        --palette-grey-800: #202E3E;
+        --palette-grey-900: #132033
+    }
+}
